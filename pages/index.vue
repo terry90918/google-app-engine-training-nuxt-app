@@ -24,6 +24,7 @@
           GitHub
         </a>
       </div>
+      <p>I update automatically!</p>
     </div>
   </div>
 </template>
