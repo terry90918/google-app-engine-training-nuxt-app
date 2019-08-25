@@ -25,6 +25,7 @@
         </a>
       </div>
       <p>I update automatically!</p>
+      <p>Feat Test 1</p>
     </div>
   </div>
 </template>
