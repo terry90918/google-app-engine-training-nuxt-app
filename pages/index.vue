@@ -26,6 +26,7 @@
       </div>
       <p>I update automatically!</p>
       <p>Feat Test 1</p>
+      <p>Feat Test 2</p>
     </div>
   </div>
 </template>
