@@ -1,4 +1,12 @@
 steps:
+- name: "gcr.io/cloud-builders/yarn"
+  args: ["install"]
+
+steps:
+- name: "gcr.io/cloud-builders/yarn"
+  args: ["build"]
+
+steps:
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
 timeout: "1600s"
