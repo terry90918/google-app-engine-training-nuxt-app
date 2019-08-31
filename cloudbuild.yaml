@@ -3,14 +3,10 @@ steps:
   name: "node:10"
   entrypoint: yarn
   args: ["install"]
-
-steps:
 - id: "yarn-build"
   name: "node:10"
   entrypoint: yarn
   args: ["build"]
-
-steps:
 - id: "deploy"
   name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy"]
